@@ -1,0 +1,86 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Variáveis para cores */
+:root {
+    --verdeEscuro: #616751;
+    --cinzaEsuro: #1f1f1f;
+    --cinzaMedio: #D9D9D9;
+
+
+}
+
+ /* Layout */
+ .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ body {
+  font-family: "Adamina", serif;
+  background-color: var(--verdeEscuro);
+
+
+ }
+
+ /* Cabeçalho */
+ header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 50%;
+
+ }
+
+ /* Principal */
+ main {
+text-align: center;
+
+ }
+
+ main h1 {
+    margin: 10px 0px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--cinzaMedio);
+
+ }
+
+ main p {
+    max-width: 210px;
+    margin-bottom: 10px;
+    color: var(--cinzaMedio);
+ }
+
+ /* Links */
+ .container > a {
+text-decoration: none;
+background-color: var(--cinzaMedio);
+color: var(--cinzaEscuro);
+width: 200px;
+height: 60px;
+margin-bottom: 15px;
+text-align: center;
+padding-top: 18px;
+border-radius: 30px;
+
+ }
+
+ /* Rodapé */
+ footer {
+margin-top: 20px;
+
+ }
+
+ footer img {
+    margin: 0px 15px;
+
+
+ }
